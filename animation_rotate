@@ -1,0 +1,11 @@
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    13% {transform: rotate(20deg);}
+    50% {transform: rotate(-20deg);}
+    80% {transform: rotate(8deg);}
+    100% {transform: rotate(0deg);}
+}
+a:hover {
+    animation-name: rotate;
+    animation-duration: 1s;
+}
